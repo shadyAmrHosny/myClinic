@@ -1,5 +1,5 @@
 # myClinic
--"My Clinic: Appointment Reservation App" is an innovative solution designed with a robust technology stack to revolutionize the way individuals schedule their medical appointments. With a focus on reliability, security, and a seamless user experience, the app utilizes a powerful backend and a user-friendly frontend.
+-My Clinic: Appointment Reservation App" is an innovative solution designed with a robust technology stack to revolutionize the way individuals schedule their medical appointments. With a focus on reliability, security, and a seamless user experience, the app utilizes a powerful backend and a user-friendly frontend.
 
 -Backend Technology Stack:
 -Node.js: Powering the backend, Node.js ensures scalability and high performance, enabling swift data processing and seamless communication between the server and the client.
