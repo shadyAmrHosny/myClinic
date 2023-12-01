@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=mongodb+srv://shedz111:0MumFjs08Ir4Co3l@cluster0.2f2ryv6.mongodb.net/clinicReservationSystem?retryWrites=true&w=majority
+  mongodb:
+    image: mongo
+    environment:
+      - MONGO_INITDB_DATABASE=clinicReservationSystem
