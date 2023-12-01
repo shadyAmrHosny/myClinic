@@ -1,6 +1,6 @@
 const Appointment  = require('./../models/appointmentModel');
 const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
+const AppError = require('./../utils/AppError');
 const Slot = require("../models/slotModel");
 
 exports.getAllAppointments=catchAsync(async (req,res,next)=>{

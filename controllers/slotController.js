@@ -1,6 +1,6 @@
 const Slot  = require('./../models/slotModel');
 const catchAsync = require('./../utils/catchAsync');
-const AppError = require('./../utils/appError');
+const AppError = require('./../utils/AppError');
 exports.getAllSlots=catchAsync(async (req,res,next)=>{
     const slots=await Slot.find();
     res.status(200).json({
